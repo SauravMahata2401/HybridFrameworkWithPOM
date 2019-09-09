@@ -22,7 +22,7 @@ public class LoginTest extends BaseClass {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		Assert.assertTrue(driver.getCurrentUrl().contains("dashboardqq"));
+		Assert.assertTrue(driver.getCurrentUrl().contains("dashboard"));
 		
 		
 	}
